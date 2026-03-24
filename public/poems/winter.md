@@ -1,11 +1,11 @@
 ---
 id: winter
-title: Wintersweet
+title: Winter
 tag: poem
 alignment: left
 ---
 
-Our beloved campus
+Our dear campus
 The winter storm had transported 
 Into a new, ephemeral dimension
 

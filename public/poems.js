@@ -66,9 +66,9 @@ function buildSidebar() {
     btn.dataset.id = poem.id;
     btn.innerHTML = `${poem.title}`;
     btn.addEventListener('click', () => showPoem(poem.id));
-    btn.addEventListener('click', function () {
-        mainView.scrollIntoView({ behavior: "smooth" });
-    });
+    // btn.addEventListener('click', function () {
+    //     mainView.scrollIntoView({ behavior: "smooth" });
+    // });
     li.appendChild(btn);
     list.appendChild(li);
   });

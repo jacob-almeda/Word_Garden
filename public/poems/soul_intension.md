@@ -26,7 +26,7 @@ To grant them crystalline forms
 With the hopes of somehow conveying 
 Even a fraction of my soul’s information
 
-Language is what we call this flawed system of communication
+'Language' is what we call this flawed system of communication
 With all this in mind, is it but a fruitless endeavor?
 I think not
 
