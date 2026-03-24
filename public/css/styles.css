@@ -3,23 +3,32 @@
 }
 body { /*default body style (black Verdana)*/
   font-family:Verdana;
-  color:#000000; 
+  color:#008111;
+  background-color: #f7f7f7;
 }
+
+a {
+  color: #008111;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 
 .menu { /* menu style */
   float: left;
-  background-color: #ED2828;
+  /* background-color: #e5e5e5; */
   width: 20%;
   text-align: center;
 }
 
 .menu a { /* style of links within menus */
-  background-color: #28ED31;
+  background-color: #f7f7f7;
   padding: 8px;
   margin-top: 7px;
   display: block;
   width: 100%;
   color: black;
+  font-size: large;
 }
 
 .responsive { /* makes elements,resize responsively,*/
@@ -36,18 +45,19 @@ body { /*default body style (black Verdana)*/
 
 .main {
   float: left;
-  background-color: #dd2118;
-  width: 60%;
+  background-color: #f7f7f7;
+  width: 50%;
   padding: 0 20px;
   text-align: center;
+  margin: 0% 5%;
 }
 
 .right {
-  background-color: #49CAD2;
+  background-color: #f7f7f7;
   float: left;
   width: 20%;
   padding: 15px;
-  margin-top: 7px;
+  margin-top: 0px;
   text-align: center;
 }
 
@@ -57,3 +67,87 @@ body { /*default body style (black Verdana)*/
     width: 100%;
   }
 }
+
+p {
+  font-size: large;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+:root {
+  --ink:       #1a1713;
+  --ink-muted: #6b6660;
+  --ink-faint: #b0aaa4;
+  --paper:     #f5f2ed;
+  --cream:     #ede9e2;
+  --accent:    #00690e;
+  --rule:      rgba(26,23,19,0.12);
+  --serif:     'Cormorant Garamond', Georgia, serif;
+  --mono:      'DM Mono', monospace;
+}
+
+.poem-list {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.poem-list li {
+  border-bottom: 1px solid var(--rule);
+}
+
+.poem-list button {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem 0;
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--ink-muted);
+  transition: color 0.2s;
+  line-height: 1.3;
+}
+
+.poem-list button:hover { color: var(--ink); }
+
+.poem-list button.active {
+  color: var(--accent);
+  font-style: italic;
+}
+
+.poem-list .meta {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--ink-faint);
+  display: block;
+  margin-top: 2px;
+  font-style: normal;
+}
+
+.poem-view { display: none; animation: fadeIn 0.35s ease; }
+.poem-view.visible { display: block; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.stanza {
+  margin-bottom: 1.5em;
+  font-size: large;
+}
+
+.empty-state {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 55vh;
+      font-style: italic;
+      color: darkslategray;
+      font-size: larger;
+    }
