@@ -5,7 +5,7 @@ tag: short
 alignment: left
 ---
 
-Chapter 1
+––– Chapter 1 –––
 
 One night, thousands of years ago, a falling star crashed into the Earth. It was known as The Star Too Great For The Sky. An adventurous young girl named Sera went to explore the Starfall Crater. She lived in a town not too far from the impact site. However, the village Elder had forbidden anyone from approaching it.
 

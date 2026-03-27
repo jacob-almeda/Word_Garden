@@ -37,7 +37,8 @@ Maria shuffles over and takes hold of her sister’s hand. “And you know, sis.
 
 Irene smiles as tears begin welling up in her eyes. “Yeah. I know. I feel the same way!”
 
-“Heehee! Of course!” Maria starts patting her sister on the back. “So I think it’s gonna be fun! We should go meet whoever’s waiting for us!”
+“Haha! Of course!” Maria starts patting her sister on the back. “So I think it’s gonna be fun! We should go meet whoever’s waiting for us!”
 
 The sisters help each other up off the ground and stand, hand-in-hand, looking toward the sunrise.
+
 Together, they begin walking toward the light.
