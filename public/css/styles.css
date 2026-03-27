@@ -4,7 +4,7 @@
 body {
   font-family: Garamond;
   color:#008111;
-  background-color: #f7f7f7;
+  background-color: rgb(255, 231, 185);
 }
 
 a {
@@ -22,7 +22,6 @@ a {
 }
 
 .menu a { /* style of links within menus */
-  background-color: #f7f7f7;
   padding: 8px;
   margin-top: 7px;
   display: block;
@@ -45,7 +44,6 @@ a {
 
 .main {
   float: left;
-  background-color: #f7f7f7;
   width: 50%;
   padding: 0 20px;
   text-align: center;
@@ -53,7 +51,6 @@ a {
 }
 
 .right {
-  background-color: #f7f7f7;
   float: left;
   width: 20%;
   padding: 15px;
@@ -129,15 +126,59 @@ hr {
   font-style: normal;
 }
 
-.poem-view { display: none; animation: fadeIn 0.4s ease; }
-.poem-view.visible { display: block; }
+
+.short-list {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.short-list li {
+  border-bottom: 1px solid var(--rule);
+}
+
+.short-list button {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem 0;
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--ink-muted);
+  transition: color 0.2s;
+  line-height: 1.3;
+}
+
+.short-list button:hover { color: var(--ink); }
+
+.short-list button.active {
+  color: var(--accent);
+  font-style: italic;
+}
+
+.short-list .meta {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--ink-faint);
+  display: block;
+  margin-top: 2px;
+  font-style: normal;
+}
+
+.text-view { 
+  display: none; animation: fadeIn 0.4s ease; 
+  margin-bottom: 50%;
+}
+.text-view.visible { display: block; }
+
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-.stanza {
+.paragraph {
   margin-bottom: 1.5em;
   font-size: large;
 }
@@ -148,6 +189,5 @@ hr {
       justify-content: center;
       height: 55vh;
       font-style: italic;
-      color: darkslategray;
       font-size: larger;
     }

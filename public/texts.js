@@ -1,9 +1,10 @@
 /*  
-    Loads poem IDs from poems/poem_index.json, then fetches each .md file,
+    Loads text IDs from texts/text_index.json, then fetches each .md file,
     parses the frontmatter and body, and renders them.
 */
 
-let poems = [];
+let poemTexts = [];
+let shortTexts = [];
 let currentId = null;
 
 /* ── Frontmatter parser ── */
@@ -25,47 +26,54 @@ function parseFrontmatter(text) {
   return { meta, body: match[2].trim() };
 }
 
-/* ── Bootstrap: load poem_index, then fetch each .md file ── */
+/* ── Bootstrap: load text_index, then fetch each .md file ── */
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('poems/poem_index.json')
+  for (const textType of ['poem', 'short']) {
+    fetch(`texts/${textType}_index.json`)
     .then(res => {
-        if (!res.ok) throw new Error('Could not load poems/poem_index.json');
+        if (!res.ok) throw new Error(`Could not load texts/${textType}_index.json`);
         return res.json();
     })
     .then(ids => Promise.all(
         ids.map(id =>
-        fetch(`poems/${id}.md`)
+        fetch(`texts/${id}.md`)
             .then(r => r.text())
             .then(text => {
             const { meta, body } = parseFrontmatter(text);
-            /* stanzas: split on blank lines */
-            const stanzas = body.split(/\n\n+/).map(s => s.split('\n'));
-            return { id, ...meta, stanzas };
+            /* paragraphs: split on blank lines */
+            const paragraphs = body.split(/\n\n+/).map(s => s.split('\n'));
+            return { id, ...meta, paragraphs };
             })
         )
     ))
     .then(data => {
-        poems = data;
-        buildSidebar();
+        if (textType === 'poem') {
+            poemTexts = data;
+        } else {
+            shortTexts = data;
+        }
+        buildSidebar(textType);
     })
     .catch(err => {
         document.getElementById('empty-state').textContent =
-        'Failed to load poems. ' + err.message;
+        'Failed to load texts. ' + err.message;
     });
+  }
 });
 
 /* ── Build sidebar list ── */
-function buildSidebar() {
-  const list = document.getElementById('poem-list');
+function buildSidebar(textType) {
+  const list = document.getElementById(`${textType}-list`);
   const mainView = document.getElementById('main')
   list.innerHTML = '';
 
-  poems.forEach(poem => {
+  const textList = textType === 'poem' ? poemTexts : shortTexts;
+  textList.forEach(text => {
     const li = document.createElement('li');
     const btn = document.createElement('button');
-    btn.dataset.id = poem.id;
-    btn.innerHTML = `${poem.title}`;
-    btn.addEventListener('click', () => showPoem(poem.id));
+    btn.dataset.id = text.id;
+    btn.innerHTML = `${text.title}`;
+    btn.addEventListener('click', () => showText(text.id, textType));
     // btn.addEventListener('click', function () {
     //     mainView.scrollIntoView({ behavior: "smooth" });
     // });
@@ -74,35 +82,36 @@ function buildSidebar() {
   });
 }
 
-/* ── Show a poem by its id string ── */
-function showPoem(id) {
-  const poem = poems.find(p => p.id === id);
-  if (!poem) return false;
+/* ── Show a text by its id string ── */
+function showText(id, textType) {
+  const textList = textType === 'poem' ? poemTexts : shortTexts;
+  const text = textList.find(p => p.id === id);
+  if (!text) return false;
 
   currentId = id;
 
-  document.querySelectorAll('.poem-list button').forEach(btn => {
+  document.querySelectorAll(`.${textType}-list button`).forEach(btn => {
     btn.classList.toggle('active', btn.dataset.id === id);
   });
 
   const main = document.getElementById('main');
-  const old = document.getElementById('poem-view');
+  const old = document.getElementById(`text-view`);
   if (old) old.remove();
 
   document.getElementById('empty-state').style.display = 'none';
 
   const view = document.createElement('article');
-  view.id = 'poem-view';
-  view.className = 'poem-view';
+  view.id = `text-view`;
+  view.className = `text-view`;
   view.innerHTML = `
-    <header class="poem-header" style="text-align: ${poem.alignment}">
-      <h1 class="poem-title-display">${poem.title}</h1>
+    <header class="${textType}-header" style="text-align: ${text.alignment}">
+      <h1 class="${textType}-title-display">${text.title}</h1>
     </header>
 
-    <div class="stanzas">
-      ${poem.stanzas.map(stanza => `
-        <div class="stanza" style="text-align: ${poem.alignment}">
-          ${stanza.map(line => `<div class="poem-line">${line || '&nbsp;'}</div>`).join('')}
+    <div class="paragraphs">
+      ${text.paragraphs.map(paragraph => `
+        <div class="paragraph" style="text-align: ${text.alignment}">
+          ${paragraph.map(line => `<div class="${textType}-line">${line || '&nbsp;'}</div>`).join('')}
         </div>
       `).join('')}
     </div>
@@ -111,21 +120,4 @@ function showPoem(id) {
   main.appendChild(view);
   requestAnimationFrame(() => view.classList.add('visible'));
   return true;
-}
-
-/* ── Called by the "Go" button ── */
-function grabById() {
-  const input = document.getElementById('id-input');
-  const error = document.getElementById('grab-error');
-  const id = input.value.trim().toLowerCase();
-
-  error.style.display = 'none';
-  if (!id) return;
-
-  const found = showPoem(id);
-  if (!found) {
-    error.style.display = 'block';
-  } else {
-    input.value = '';
-  }
 }

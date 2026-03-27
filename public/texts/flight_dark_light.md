@@ -5,32 +5,12 @@ tag: poem
 alignment: left
 ---
 
-I’ve always wondered
-The purpose of those grey curtains
-That hang down indifferently 
-In the middle of airplanes
-
-I figured they were used to separate
-Each cabin from the next
-But I didn’t really see the point
-
-For one, there were plastic divisions anyway
-And the veils themselves didn’t obscure much at all
-Is the notion of separation all that’s needed?
-Is separation an indication of luxury? Of comfort?
-
-I’m overthinking things
-But what if we diminished the divisions between ourselves?
-What if we took down the grey curtains
-The dark veils that lie between our souls?
-
-* * *
-
-Later that very flight, I had the honor
+On the flight to California
+I had the honor
 Of traversing the veil
 And becoming a plant
 As I was cared for
-By two lovely souls
+By two wonderful souls
 
 A terrible illness had fallen upon me
 As I was feeling increasingly nauseous 
@@ -48,7 +28,7 @@ Like sweet ambrosia to nourish the spirit
 
 Throughout the rest of the flight
 They kept checking on me
-Like wonderful guardian angels
+Like guardian angels
 Whose kindness I will never forget
 
 I shall remember this lesson:
