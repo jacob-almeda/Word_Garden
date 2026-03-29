@@ -31,7 +31,7 @@ She ran and ran until her legs gave out underneath her. She collapsed onto the g
 
 The wolves must not have been too far behind.
 
-“No! I didn’t want this!” she cried angrily while striking the earth beneath her. “I just wanted to adventure like we used to! I’m sorry, I—I just miss you so much, Father.”
+“No! I can't do this!” she cried angrily while striking the earth beneath her. “I just wanted to adventure like we used to! I’m sorry, I—I just miss you so much, Father.”
 
 The young girl choked back a sob.
 

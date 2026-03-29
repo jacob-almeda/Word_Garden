@@ -8,7 +8,8 @@ body {
 }
 
 a {
-  color:darkslategray;
+  padding: 15px;
+  color: var(--ink-muted);
   text-decoration: none;
   font-weight: bold;
 }
@@ -19,21 +20,38 @@ a {
   /* background-color: #e5e5e5; */
   width: 20%;
   text-align: center;
+  margin-bottom: 30%;
 }
 
 .menu a { /* style of links within menus */
-  padding: 8px;
-  margin-top: 7px;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 2rem;
   display: block;
   width: 100%;
-  color: black;
+  color: var(--ink-muted);
   font-size: large;
 }
+
+a:hover { color: var(--ink); }
+
+
+.garden-block p {
+  margin-top: 2.5rem; 
+  margin-bottom: 0px; 
+  font-style: italic
+}
+
+.garden-block h2 {
+  margin: 0px
+}
+
 
 .responsive { /* makes elements,resize responsively,*/
   max-width:100%;
   max-height:100%;
 }
+
 
 .center { /*centers an element*/
   position: relative;
@@ -42,13 +60,15 @@ a {
   transform: translate(-50%, 0%);
 }
 
+
 .main {
   float: left;
   width: 50%;
   padding: 0 20px;
   text-align: center;
-  margin: 0% 5%;
+  margin: 1.5rem 5% 0%;
 }
+
 
 .right {
   float: left;
@@ -65,11 +85,13 @@ a {
   }
 }
 
+
 p {
   font-size: large;
 }
 
 hr {
+  border: 0.25px solid #b0aaa4;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -89,7 +111,7 @@ hr {
 
 .poem-list {
   list-style: none;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .poem-list li {
@@ -168,7 +190,7 @@ hr {
 
 .text-view { 
   display: none; animation: fadeIn 0.4s ease; 
-  margin-bottom: 50%;
+  margin-bottom: 100%;
 }
 .text-view.visible { display: block; }
 

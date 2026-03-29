@@ -15,9 +15,9 @@ To accurately express my soul
 Through this very medium?
 
 The truth is, I cannot
-I can only sift through the myriad musings of my mind
+I can only sift through the myriad thoughts in my mind
 Contemplate the groans, whims, and urges of my spirit
-And hone in on certain nebulous thoughts
+And hone in on certain nebulous ideas
 
 I can then associate these feelings 
 With socially-constructed symbols and characters
@@ -27,15 +27,18 @@ With the hopes of somehow conveying
 Even a fraction of my soul’s information
 
 'Language' is what we call this flawed system of communication
-With all this in mind, is it but a fruitless endeavor?
+With all this in mind
+Is it but a fruitless endeavor?
 I think not
 
 I think our very desire to commune with one another
 Made manifest by our materialization of language
-However flawed, is a beautiful conception
+However flawed
+Is a beautiful conception
 
 Our process of communicating
-And failing, misunderstanding, agonizing, and trying all over again
+And failing, misunderstanding, agonizing
+And trying all over again
 Is something evocative of life itself
 
 Our mutual and inevitable deterioration 

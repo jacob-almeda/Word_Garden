@@ -6,8 +6,8 @@
 <link rel="stylesheet" type="text/css" href="/css/styles.css">
 </head>
 
-<!-- you can also specify styles straight in html! Let's use Verdana on this page.-->
-<div style="margin: 1.5em; text-align:center">
+<!-- you can also specify styles straight in html!-->
+<div style="margin: 1.5rem; text-align:center">
   <a style="color:#008111; font-size: 50px; font-style:italic" href="">
     Jacob's Word Garden
   </a>
@@ -15,32 +15,40 @@
 
 <div style="overflow:auto">
   <div class="menu">
-    <p style="margin: 0px; font-style: italic">The First Garden</p>
-    <h2 style="margin: 0px;">Poems</h2>
-    <ul class="poem-list" id="poem-list"></ul>
+    <div class="garden-block">
+      <p style="margin: 0rem;">The First Garden</p>
+      <h2>Poems</h2>
+      <ul class="poem-list" id="poem-list"></ul>
+    </div>
 
-    <p style="margin-bottom: 0px; font-style: italic">The Second Garden</p>
-    <h2 style="margin-top: 0px;">Short Stories</h2>
-    <ul class="short-list" id="short-list"></ul>
+    <div class="garden-block">
+      <p>The Second Garden</p>
+      <h2>Short Stories</h2>
+      <ul class="short-list" id="short-list"></ul>
+    </div>
     
-    <p style="margin-bottom: 0px; font-style: italic">The Third Garden</p>
-    <h2 style="margin-top: 0px;">Word (Garden) Salad</h2>
-    <a href="/a">Normal Rabbit</a>
-    <hr>
+    <div class="garden-block">
+      <p>The Third Garden</p>
+      <h2>Word (Garden) Salad</h2>
+      <a href="/a">Click here</a>
+    </div>
 
-    <p style="margin-bottom: 0px; font-style: italic">The Fourth Garden</p>
-    <h2 style="margin-top: 0px;">Inspirations & Recommendations</h2>
-    <a href="/a">Normal Rabbit</a>
-    <hr>
+    <div class="garden-block">
+      <p>The Fourth Garden</p>
+      <h2>Inspirations & Recommendations</h2>
+      <a href="/a">Click here</a>
+    </div>
 
-    <p style="margin-bottom: 0px; font-style: italic">The Fifth Garden</p>
-    <h2 style="margin-top: 0px;">About</h2>
-    <a href="/a">Normal Rabbit</a>
+    <div class="garden-block">
+      <p>The Fifth Garden</p>
+      <h2>About</h2>
+      <a href="/a">Click here</a>
+    </div>
   </div>
 
 
-  <main id="main" class="main" style="margin-top: 1.5em">
-    <div class="empty-state" id="empty-state"><— choose a plant, watch it grow</div>
+  <main id="main" class="main">
+    <div class="empty-state" id="empty-state"><— select from a garden</div>
   </main>
 
   <div class="right">
@@ -62,7 +70,7 @@
       – Jacob Almeda
 
       <br><br>
-      <a href="/a">See More</a>
+      <a href="/a">Click to see more</a>
     </p>
   </div>
 </div>

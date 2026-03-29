@@ -1,6 +1,6 @@
 ---
 id: soul_trilogy
-title: The Soul Trilogy
+title: Soul Trilogy
 tag: poem
 alignment: center
 ---

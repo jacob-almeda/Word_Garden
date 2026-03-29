@@ -17,6 +17,6 @@ Or perhaps a dependable visage of love
 Never seeking recompense
 
 Until this mortal body withers away
-Or, bursting forth, blooms fragrantly
+Or, blooming forth, awakens fragrantly
 I am yours
 As a plant
