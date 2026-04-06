@@ -15,7 +15,6 @@ But that’s exactly why
 It feels like I belong
 In a separate world
 
-One that’s more tied down
 One that moves more slowly
 One that feels simpler
 And more discrete/discreet
@@ -26,7 +25,7 @@ But that’s merely a human perception
 A mortal, earthly perspective
 
 For in the end
-Love will eradicate any division 
+Love will eradicate division 
 Reconcile the divided
 And heal any troubled heart
 

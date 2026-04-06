@@ -13,12 +13,12 @@ To the word “womb,” isn’t it?
 Both are enclosed residences inhabited
 Temporarily by the body and spirit
 Until they are delivered unto the great beyond
-The only difference being the ultimate destination, of course
+The difference being the ultimate destination, of course
 
-Lord Jesus himself had undergone this full journey
+Lord Jesus had undergone this full journey
 From birth, to life, to death, and resurrection
-Through Him, we know that death is a lie
-It is merely a new beginning
+Death does not have the final word
+It is merely another beginning
 
 When love is the fire that fuels our lives
 Then a tomb is a womb

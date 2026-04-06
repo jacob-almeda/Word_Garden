@@ -39,6 +39,6 @@ Irene smiles as tears begin welling up in her eyes. “Yeah. I know. I feel the 
 
 “Haha! Of course!” Maria starts patting her sister on the back. “So I think it’s gonna be fun! We should go meet whoever’s waiting for us!”
 
-The sisters help each other up off the ground and stand, hand-in-hand, looking toward the sunrise.
+The twins help each other up off the ground and stand, hand-in-hand, looking toward the sunrise.
 
 Together, they begin walking toward the light.

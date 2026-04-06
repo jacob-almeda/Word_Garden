@@ -24,9 +24,9 @@ It could act as the bass in a symphony of static
 It was then that I realized
 I had become a musical instrument
 Or perhaps I’ve already been one this whole time
-For a song is forever within my soul
+For a song is always within my soul
 
-In any case,
+In any case
 The music performed by the orchestra 
 Of my hair, the brush, and the static
 Along with the resulting fluffiness of my hair

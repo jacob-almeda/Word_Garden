@@ -25,8 +25,8 @@ It feels like it’s drowning
 In an ocean so deep…just like…
 The Dark
 
-Is there true freedom in this earthly realm?
-We can only fight onward
+Is there true freedom for it in this earthly realm?
+It can only fight onward
 To bring about the next age of humanity
 As the cycle begins anew
 
@@ -37,7 +37,7 @@ Then hatred would be akin to death
 Why, then, are we so steeped in contempt
 When love is the true expression of our souls?
 
-Is there true connection in this earthly realm?
-We can only hold on to our precious ties
+Is there true connection for it in this earthly realm?
+It can only hold on to its precious ties
 To bring about the next age of souls
 As the cycle begins anew

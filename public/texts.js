@@ -74,9 +74,9 @@ function buildSidebar(textType) {
     btn.dataset.id = text.id;
     btn.innerHTML = `${text.title}`;
     btn.addEventListener('click', () => showText(text.id, textType));
-    // btn.addEventListener('click', function () {
-    //     mainView.scrollIntoView({ behavior: "smooth" });
-    // });
+    btn.addEventListener('click', function () {
+        mainView.scrollIntoView({ behavior: "smooth" });
+    });
     li.appendChild(btn);
     list.appendChild(li);
   });
