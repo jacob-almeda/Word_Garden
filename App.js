@@ -21,9 +21,6 @@ const router = express.Router();
 const app = express();
 const path = require('path');
 
-//specify that we want to run our website on 'http://localhost:8000/'
-const host = 'localhost';
-const port = 8000;
 
 var publicPath = path.join(__dirname, 'public'); //get the path to use our "public" folder where we stored our html, css, images, etc
 app.use(express.static(publicPath));  //tell express to use that folder
@@ -47,7 +44,8 @@ app.get('/c', function (req, res) {
 });
 
 
-//run this server by entering "node App.js" using your command line. 
-   app.listen(port, () => {
-     console.log(`Server is running on http://${host}:${port}`);
-   });
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+  console.log("Server running on port " + port);
+});
