@@ -2,7 +2,7 @@
 Node + Express website for MUS370-04: Music: Joy, Creativity, & Play and for the Joy Symposium during TCNJ's Spring 2026 semester
 Made by Jacob Almeda
 
-Template made by Shm Garanganao Almeda for CS160 Summer 2022
+Template made by Shm Garanganao Almeda for CS160 Summer 2022.
 
 Code referenced from: 
 https://www.digitalocean.com/community/tutorials/how-to-create-a-web-server-in-node-js-with-the-http-module"

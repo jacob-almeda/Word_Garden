@@ -4,7 +4,7 @@
 body {
   font-family: Garamond;
   color:#008111;
-  background-color: rgb(255, 231, 185);
+  background-color: rgb(255, 225, 170);
 }
 
 a {
@@ -190,7 +190,7 @@ hr {
 
 .text-view { 
   display: none; animation: fadeIn 0.4s ease; 
-  margin-bottom: 100%;
+  margin-bottom: 75%;
 }
 .text-view.visible { display: block; }
 
