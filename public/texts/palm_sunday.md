@@ -17,7 +17,7 @@ The difference being the ultimate destination, of course
 
 Lord Jesus had undergone this full journey
 From birth, to life, to death, and resurrection
-Death does not have the final word
+Death never has the final word
 It is merely another beginning
 
 When love is the fire that fuels our lives

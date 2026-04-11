@@ -16,7 +16,7 @@ Through this very medium?
 
 The truth is, I cannot
 I can only sift through the myriad thoughts in my mind
-Contemplate the groans, whims, and urges of my spirit
+Contemplate the whims, and urges of my spirit
 And hone in on certain nebulous ideas
 
 I can then associate these feelings 
