@@ -4,7 +4,7 @@
 body {
   font-family: Garamond;
   color:#008111;
-  background-color: rgb(255, 229, 180);
+  background-color: rgb(255, 231, 187);
 }
 
 a {
@@ -36,13 +36,13 @@ a {
 a:hover { color: var(--ink); }
 
 
-.garden-block p {
+.flower-bed p {
   margin-top: 2.5rem; 
   margin-bottom: 0px; 
-  font-style: italic
+  font-style: italic;
 }
 
-.garden-block h2 {
+.flower-bed h2 {
   margin: 0px
 }
 
@@ -112,6 +112,7 @@ hr {
 .poem-list {
   list-style: none;
   margin-bottom: 2rem;
+  margin-left: -1rem;
 }
 
 .poem-list li {
@@ -151,7 +152,7 @@ hr {
 
 .short-list {
   list-style: none;
-  margin-bottom: 1.5rem;
+  margin-left: -1rem;
 }
 
 .short-list li {
