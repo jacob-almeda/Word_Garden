@@ -6,14 +6,14 @@ alignment: center
 ---
 
 There’s a flower on the Moon
-And held within its fluorescent petals
+And held within its luminescent petals
 Is everything I could hope to convey, which is
 That I cannot convey everything
 
 For the soul is infinite and continuous
 Yet our physical embodiments are finite and discrete
 Every movement of the body
-Every held hand or wave goodbye
+Every held hand or hug goodbye
 Every word spoken or written
 Is an approximation of some unfathomably grand information
 The conveyance of our souls, veiled in mist
@@ -26,7 +26,7 @@ With the force of life, which is love itself
 
 Throughout all this, upon the silver Moon
 Rests the flower, unreachable and immutable
-As a dependable visage of loveliness
+A dependable visage of loveliness
 Its very existence, a beckoning call
 One that may not be truly fulfilled
 Within this earthly realm
